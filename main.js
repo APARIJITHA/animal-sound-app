@@ -25,27 +25,27 @@ function gotResults(error,results){
    img=document.getElementById('image');
     
    if(results[0].label=="Background Noise" ){
-    image.src='th.jpg';
+    image.src='background.jpg';
     
    }
 
    if(results[0].label=="cat" ){
-    image.src='th(1).jpg';
+    image.src='cat.jpg';
     
    }
 
    if(results[0].label=="cow" ){
-    image.src='th(2).jpg';
+    image.src='cow.jpg';
     
    }
 
    if(results[0].label=="crow" ){
-    image.src='th(3).jpg';
+    image.src='crow.jpg';
     
    }
 
    if(results[0].label=="dog" ){
-    image.src='th(4).jpg';
+    image.src='dog.jpg';
     
    }
 }
